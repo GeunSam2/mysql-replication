@@ -2,8 +2,8 @@
 
 > Docker Build
 
-    docker build -t geunsam2/mysql-master:5.7.28 -f ./master-mysql.cnf .
-    docker build -t geunsam2/mysql-slave:5.7.28 -f ./slave-mysql.cnf .
+    docker build -t geunsam2/mysql-master:5.7.28 -f ./master/Dockerfile .
+    docker build -t geunsam2/mysql-slave:5.7.28 -f ./slave/Dockerfile .
   
  > Docker run
  
